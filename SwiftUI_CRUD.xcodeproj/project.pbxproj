@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42BEA824148CE065C0021124 /* Pods_SolveHunger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A560C8EAEAAF5B698D3DE70 /* Pods_SolveHunger.framework */; };
+		B52272CB2907C63600B9D88E /* Foodbank.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52272CA2907C63600B9D88E /* Foodbank.swift */; };
+		B52272CD2907C64700B9D88E /* FoodbankAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52272CC2907C64700B9D88E /* FoodbankAnnotation.swift */; };
+		B52272CF2907C65C00B9D88E /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52272CE2907C65C00B9D88E /* LocationManager.swift */; };
+		B52272D12907C66C00B9D88E /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52272D02907C66C00B9D88E /* MapView.swift */; };
+		B52845D528FCC44F001634B3 /* SolveHungerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52845D428FCC44F001634B3 /* SolveHungerApp.swift */; };
+		B52845D728FCC44F001634B3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52845D628FCC44F001634B3 /* ContentView.swift */; };
+		B52845D928FCC451001634B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B52845D828FCC451001634B3 /* Assets.xcassets */; };
+		B52845DC28FCC451001634B3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B52845DB28FCC451001634B3 /* Preview Assets.xcassets */; };
+		B59DFA5729ED0B5E004B889B /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59DFA5629ED0B5E004B889B /* UserModel.swift */; };
+		B59DFA5929ED0BF7004B889B /* DB_Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59DFA5829ED0BF7004B889B /* DB_Manager.swift */; };
+		B5F7AEBB290641CB00D1301A /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F7AEBA290641CB00D1301A /* SplashScreen.swift */; };
+		B5F8D58329ECC565008D698E /* PlaceListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F8D58229ECC565008D698E /* PlaceListView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6A560C8EAEAAF5B698D3DE70 /* Pods_SolveHunger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SolveHunger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE6C0D70078FD40070B4613C /* Pods-SolveHunger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SolveHunger.debug.xcconfig"; path = "Target Support Files/Pods-SolveHunger/Pods-SolveHunger.debug.xcconfig"; sourceTree = "<group>"; };
+		B52272CA2907C63600B9D88E /* Foodbank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Foodbank.swift; sourceTree = "<group>"; };
+		B52272CC2907C64700B9D88E /* FoodbankAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodbankAnnotation.swift; sourceTree = "<group>"; };
+		B52272CE2907C65C00B9D88E /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		B52272D02907C66C00B9D88E /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		B52845D128FCC44F001634B3 /* SolveHunger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SolveHunger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B52845D428FCC44F001634B3 /* SolveHungerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolveHungerApp.swift; sourceTree = "<group>"; };
+		B52845D628FCC44F001634B3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B52845D828FCC451001634B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B52845DB28FCC451001634B3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B59DFA5629ED0B5E004B889B /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		B59DFA5829ED0BF7004B889B /* DB_Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DB_Manager.swift; sourceTree = "<group>"; };
+		B5F7AEBA290641CB00D1301A /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		B5F8D58229ECC565008D698E /* PlaceListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceListView.swift; sourceTree = "<group>"; };
+		B5F8D58829ECCF4A008D698E /* SolveHunger-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SolveHunger-Bridging-Header.h"; sourceTree = "<group>"; };
+		EC4C0E0D5CE27D8F854B2AA7 /* Pods-SolveHunger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SolveHunger.release.xcconfig"; path = "Target Support Files/Pods-SolveHunger/Pods-SolveHunger.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B52845CE28FCC44F001634B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42BEA824148CE065C0021124 /* Pods_SolveHunger.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08C29559DC4A020F0D8B60EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5F8D58829ECCF4A008D698E /* SolveHunger-Bridging-Header.h */,
+				6A560C8EAEAAF5B698D3DE70 /* Pods_SolveHunger.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1041A00A38D75108D0C4CD4A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AE6C0D70078FD40070B4613C /* Pods-SolveHunger.debug.xcconfig */,
+				EC4C0E0D5CE27D8F854B2AA7 /* Pods-SolveHunger.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B52272C52907C5EF00B9D88E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B5F8D58229ECC565008D698E /* PlaceListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B52272C62907C60E00B9D88E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B52272CA2907C63600B9D88E /* Foodbank.swift */,
+				B52272CC2907C64700B9D88E /* FoodbankAnnotation.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B52272C72907C61600B9D88E /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				B52272CE2907C65C00B9D88E /* LocationManager.swift */,
+				B59DFA5829ED0BF7004B889B /* DB_Manager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		B52845C828FCC44F001634B3 = {
+			isa = PBXGroup;
+			children = (
+				B59DFA5629ED0B5E004B889B /* UserModel.swift */,
+				B52272C72907C61600B9D88E /* Managers */,
+				B52272C62907C60E00B9D88E /* Models */,
+				B52272C52907C5EF00B9D88E /* Views */,
+				B52845D328FCC44F001634B3 /* SolveHunger */,
+				B52845D228FCC44F001634B3 /* Products */,
+				1041A00A38D75108D0C4CD4A /* Pods */,
+				08C29559DC4A020F0D8B60EC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B52845D228FCC44F001634B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B52845D128FCC44F001634B3 /* SolveHunger.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B52845D328FCC44F001634B3 /* SolveHunger */ = {
+			isa = PBXGroup;
+			children = (
+				B52845D428FCC44F001634B3 /* SolveHungerApp.swift */,
+				B52272D02907C66C00B9D88E /* MapView.swift */,
+				B52845D628FCC44F001634B3 /* ContentView.swift */,
+				B5F7AEBA290641CB00D1301A /* SplashScreen.swift */,
+				B52845D828FCC451001634B3 /* Assets.xcassets */,
+				B52845DA28FCC451001634B3 /* Preview Content */,
+			);
+			path = SolveHunger;
+			sourceTree = "<group>";
+		};
+		B52845DA28FCC451001634B3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B52845DB28FCC451001634B3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B52845D028FCC44F001634B3 /* SolveHunger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B52845DF28FCC451001634B3 /* Build configuration list for PBXNativeTarget "SolveHunger" */;
+			buildPhases = (
+				A599DFB25C731E3BDE9CDB5D /* [CP] Check Pods Manifest.lock */,
+				B52845CD28FCC44F001634B3 /* Sources */,
+				B52845CE28FCC44F001634B3 /* Frameworks */,
+				B52845CF28FCC44F001634B3 /* Resources */,
+				7D0289B8E47A55108C2CC4F7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SolveHunger;
+			productName = SolveHunger;
+			productReference = B52845D128FCC44F001634B3 /* SolveHunger.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B52845C928FCC44F001634B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					B52845D028FCC44F001634B3 = {
+						CreatedOnToolsVersion = 13.4.1;
+						LastSwiftMigration = 1430;
+					};
+				};
+			};
+			buildConfigurationList = B52845CC28FCC44F001634B3 /* Build configuration list for PBXProject "SwiftUI_CRUD" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B52845C828FCC44F001634B3;
+			productRefGroup = B52845D228FCC44F001634B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B52845D028FCC44F001634B3 /* SolveHunger */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B52845CF28FCC44F001634B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B52845DC28FCC451001634B3 /* Preview Assets.xcassets in Resources */,
+				B52845D928FCC451001634B3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7D0289B8E47A55108C2CC4F7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SolveHunger/Pods-SolveHunger-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SolveHunger/Pods-SolveHunger-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SolveHunger/Pods-SolveHunger-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A599DFB25C731E3BDE9CDB5D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SolveHunger-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B52845CD28FCC44F001634B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B52272CD2907C64700B9D88E /* FoodbankAnnotation.swift in Sources */,
+				B59DFA5929ED0BF7004B889B /* DB_Manager.swift in Sources */,
+				B52272D12907C66C00B9D88E /* MapView.swift in Sources */,
+				B5F8D58329ECC565008D698E /* PlaceListView.swift in Sources */,
+				B5F7AEBB290641CB00D1301A /* SplashScreen.swift in Sources */,
+				B52845D728FCC44F001634B3 /* ContentView.swift in Sources */,
+				B52272CF2907C65C00B9D88E /* LocationManager.swift in Sources */,
+				B52272CB2907C63600B9D88E /* Foodbank.swift in Sources */,
+				B59DFA5729ED0B5E004B889B /* UserModel.swift in Sources */,
+				B52845D528FCC44F001634B3 /* SolveHungerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B52845DD28FCC451001634B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B52845DE28FCC451001634B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B52845E028FCC451001634B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE6C0D70078FD40070B4613C /* Pods-SolveHunger.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI_CRUD/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				EXCLUDED_ARCHS = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Solve Hunger needs your location to optimize your experience by showing you the nearby food banks.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"SQLite\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.solvehunger.SolveHunger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "SolveHunger-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B52845E128FCC451001634B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC4C0E0D5CE27D8F854B2AA7 /* Pods-SolveHunger.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI_CRUD/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				EXCLUDED_ARCHS = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Solve Hunger needs your location to optimize your experience by showing you the nearby food banks.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"SQLite\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.solvehunger.SolveHunger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "SolveHunger-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B52845CC28FCC44F001634B3 /* Build configuration list for PBXProject "SwiftUI_CRUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B52845DD28FCC451001634B3 /* Debug */,
+				B52845DE28FCC451001634B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B52845DF28FCC451001634B3 /* Build configuration list for PBXNativeTarget "SolveHunger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B52845E028FCC451001634B3 /* Debug */,
+				B52845E128FCC451001634B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B52845C928FCC44F001634B3 /* Project object */;
+}
